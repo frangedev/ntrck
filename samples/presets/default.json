@@ -1,0 +1,50 @@
+{
+  "name": "Default Pattern",
+  "bpm": 120,
+  "description": "A simple 16-step pattern to get started",
+  "patterns": [
+    {
+      "id": 1,
+      "name": "Basic Beat",
+      "length": 16,
+      "steps": [
+        {
+          "frequency": 261.63,
+          "duration": 0.25,
+          "amplitude": 0.5,
+          "waveform": "Sine"
+        },
+        null,
+        null,
+        null,
+        {
+          "frequency": 329.63,
+          "duration": 0.25,
+          "amplitude": 0.5,
+          "waveform": "Square"
+        },
+        null,
+        null,
+        null,
+        {
+          "frequency": 392.00,
+          "duration": 0.25,
+          "amplitude": 0.5,
+          "waveform": "Triangle"
+        },
+        null,
+        null,
+        null,
+        {
+          "frequency": 440.00,
+          "duration": 0.25,
+          "amplitude": 0.5,
+          "waveform": "Sawtooth"
+        },
+        null,
+        null,
+        null
+      ]
+    }
+  ]
+} 

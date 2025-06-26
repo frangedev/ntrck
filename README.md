@@ -70,12 +70,43 @@ ntrck/
 
 ---
 
-## 📜 License
-
-MIT License
-
----
-
 ## 🤘 Contribute
 
 Pull requests welcome. Got tracker brain? Let's build it together.
+
+## 🚧 Future Improvements
+
+- Pattern management UI (list, select, delete, save/load patterns)
+- Song mode: chain patterns for full song playback
+- Pattern export/import (JSON)
+- Download/upload pattern buttons in UI
+- Metronome/click option
+- User-facing error banners/popups in frontend
+- More granular error types in Rust/WASM
+- Backend: persist sessions/patterns to SQLite or file
+- Backend: pattern CRUD endpoints
+- Backend: user authentication (optional)
+- Audio engine: add effects (delay, reverb, filter)
+- Mobile/touch UI improvements
+- Accessibility improvements
+- Internationalization/localization
+
+## 🐞 Known Issues & Limitations
+
+- Only one pattern can be played at a time (no song mode)
+- No persistent storage for patterns or sessions
+- No authentication or user management
+- No UI for pattern switching, saving, or loading
+- Error handling is basic; user-facing errors are not always shown
+- Audio engine is minimal (no effects, limited waveform support)
+- Backend is optional and not integrated with frontend yet
+
+---
+
+See `QUICKSTART.md` for setup instructions and `CONTRIBUTE.md` for how to help!
+
+---
+
+## 📜 License
+
+MIT License

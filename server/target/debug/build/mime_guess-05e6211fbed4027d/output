@@ -1,0 +1,1 @@
+cargo:rustc-env=MIME_TYPES_GENERATED_PATH=/Users/makalin/Public/htdocs/ntrck/server/target/debug/build/mime_guess-05e6211fbed4027d/out/mime_types_generated.rs
